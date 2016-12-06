@@ -1,0 +1,54 @@
+{
+	"id": "7ce8b49b-7e38-3cff-a603-af4a11d4f66d",
+	"name": "Learnathon",
+	"description": "",
+	"order": [
+		"db1384ef-aa6b-73ce-a69d-a03425b56af5"
+	],
+	"folders": [],
+	"timestamp": 1479845847687,
+	"owner": "775215",
+	"public": false,
+	"requests": [
+		{
+			"id": "db1384ef-aa6b-73ce-a69d-a03425b56af5",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "cardservices.mybluemix.net/card",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "imageURL",
+					"value": "https://usaa.i.lithium.com/t5/image/serverpage/image-id/1340iDED819FC83F3AD7F?v=v2",
+					"type": "text",
+					"enabled": true,
+					"warning": ""
+				},
+				{
+					"key": "cardNumber",
+					"value": "",
+					"type": "text",
+					"enabled": true,
+					"warning": ""
+				},
+				{
+					"key": "partyId",
+					"value": "1",
+					"type": "text",
+					"enabled": true,
+					"warning": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1481053669920,
+			"name": "http://localhost:8080/card",
+			"description": "",
+			"collectionId": "7ce8b49b-7e38-3cff-a603-af4a11d4f66d"
+		}
+	]
+}
